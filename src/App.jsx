@@ -1,11 +1,11 @@
+import React from 'react'
 import './App.css'
+import Greeting from './Greeting'
 
 function App() {
   return (
     <>
-      <div>
-        This is a simple React app.
-       </div>
+      <Greeting name="John" />
     </>
   )
 }
